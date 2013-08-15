@@ -1,0 +1,4 @@
+SyMaS
+=====
+
+SYllabus MAnagement System
