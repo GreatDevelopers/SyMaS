@@ -1,0 +1,21 @@
+$(document).ready(function(){
+	$("#show,#show1,#newb").hide();
+$("#theme1").mouseover(function(){
+	$("#show1").hide();
+	$("#show2").hide();
+	$("#show").slideDown(1000);
+	})
+	$("#theme2").mouseover(function(){
+	$("#show").hide();
+$("#show2").hide();
+	$("#show1").slideDown(1000);
+	})
+	$("#theme3").mouseover(function(){
+	$("#show").hide();
+$("#show1").hide();
+	$("#show2").slideDown(1000);
+	})
+$("#addnewbranch").click(function(){
+	alert("ok");
+	})
+	});
